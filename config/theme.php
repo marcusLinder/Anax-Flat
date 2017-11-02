@@ -21,11 +21,15 @@ return [
             "favicon"       => "img/favicon/LetterM.ico",
 
             // Style and stylesheets
-            "stylesheets" => ["css/default.min.css"],
+            //"stylesheets" => ["css/style.min.css"],
+            "stylesheets" => [
+                "css/style.min.css",
+                "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            ],
             "styleInline" => null,
 
             // JavaScript
-            "javascripts" => [],
+            "javascripts" => ["js/responsive-menu.js"],
         ],
     ],
 
@@ -51,7 +55,7 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "Me-sida",
-                "siteLogoTextIcon" => "img/favicon/LetterM.ico",
+                "siteLogoTextIcon" => "img/favicon/favicon_40x40.png",
                 "siteLogoTextIconAlt" => "Small logo",
                 "siteLogo"      => null, //"img/anax.png",
                 "siteLogoAlt"   => null, //"Anax Logo",
@@ -60,14 +64,14 @@ return [
             ],
             "sort" => 2
         ],
-/*
+
         [
             "region" => "profile",
             "template" => "default/navbar-max",
             "data" => [],
             "sort" => -1
         ],
-*/
+
         [
             "region" => "navbar2",
             "template" => "default/navbar",
