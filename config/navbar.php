@@ -21,6 +21,20 @@ return [
                 "mark-if-parent" => true,
             ],
 
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Vertikalt grid"),
+                "mark-if-parent" => true,
+            ],
+
+            "typography" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Horisontellt grid/typografi"),
+                "mark-if-parent" => true,
+            ],
+
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
@@ -55,6 +69,20 @@ return [
                 "text"  => t("Redovisning"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Rapporter för kursmomenten"),
+                "mark-if-parent" => true,
+            ],
+
+            "grid" => [
+                "text"  => t("Grid"),
+                "url"   => $this->di->get("url")->create("grid"),
+                "title" => t("Vertikalt grid"),
+                "mark-if-parent" => true,
+            ],
+
+            "typography" => [
+                "text"  => t("Typografi"),
+                "url"   => $this->di->get("url")->create("typography"),
+                "title" => t("Horisontellt grid/typografi"),
                 "mark-if-parent" => true,
             ],
 
