@@ -35,6 +35,20 @@ return [
                 "mark-if-parent" => true,
             ],
 
+            "analysis" => [
+                "text"  => t("Analyser"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser som görs i kursmomenten"),
+                "mark-if-parent" => true,
+            ],
+
+            "theme" => [
+                "text"  => t("Tema"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Webbplatsens teman"),
+                "mark-if-parent" => true,
+            ],
+
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
@@ -83,6 +97,20 @@ return [
                 "text"  => t("Typografi"),
                 "url"   => $this->di->get("url")->create("typography"),
                 "title" => t("Horisontellt grid/typografi"),
+                "mark-if-parent" => true,
+            ],
+
+            "analysis" => [
+                "text"  => t("Analyser"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser som görs i kursmomenten"),
+                "mark-if-parent" => true,
+            ],
+
+            "theme" => [
+                "text"  => t("Tema"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Webbplatsens teman"),
                 "mark-if-parent" => true,
             ],
 
