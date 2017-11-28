@@ -21,20 +21,6 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "grid" => [
-                "text"  => t("Grid"),
-                "url"   => $this->di->get("url")->create("grid"),
-                "title" => t("Vertikalt grid"),
-                "mark-if-parent" => true,
-            ],
-
-            "typography" => [
-                "text"  => t("Typografi"),
-                "url"   => $this->di->get("url")->create("typography"),
-                "title" => t("Horisontellt grid/typografi"),
-                "mark-if-parent" => true,
-            ],
-
             "analysis" => [
                 "text"  => t("Analyser"),
                 "url"   => $this->di->get("url")->create("analysis"),
@@ -42,13 +28,54 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "theme" => [
-                "text"  => t("Tema"),
-                "url"   => $this->di->get("url")->create("theme"),
-                "title" => t("Webbplatsens teman"),
+            "theme-selector" => [
+                "text"  => t("Temaväljare"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Ändra tema på sidan"),
                 "mark-if-parent" => true,
             ],
 
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Bildblogg"),
+                "mark-if-parent" => true,
+            ],
+
+            "assignments" => [
+                "text"  => t("Uppgifter"),
+                "url"   => $this->di->get("url")->create("#"),
+                "title" => t("Uppgifter från kursmomenten"),
+                "mark-if-parent" => true,
+
+            "submenu" => [
+                "items" => [
+                    "grid" => [
+                        "text"  => t("Grid"),
+                        "url"   => $this->di->get("url")->create("grid"),
+                        "title" => t("Vertikalt grid"),
+                    ],
+
+                    "typography" => [
+                        "text"  => t("Typografi"),
+                        "url"   => $this->di->get("url")->create("typography"),
+                        "title" => t("Horisontellt grid/typografi"),
+                    ],
+
+                    "theme" => [
+                        "text"  => t("Tema"),
+                        "url"   => $this->di->get("url")->create("theme"),
+                        "title" => t("Webbplatsens teman"),
+                    ],
+
+                    "images" => [
+                        "text"  => t("Bilder"),
+                        "url"   => $this->di->get("url")->create("images"),
+                        "title" => t("Exempelsida för bilder"),
+                    ],
+                ],
+            ],
+        ],
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
@@ -86,20 +113,6 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "grid" => [
-                "text"  => t("Grid"),
-                "url"   => $this->di->get("url")->create("grid"),
-                "title" => t("Vertikalt grid"),
-                "mark-if-parent" => true,
-            ],
-
-            "typography" => [
-                "text"  => t("Typografi"),
-                "url"   => $this->di->get("url")->create("typography"),
-                "title" => t("Horisontellt grid/typografi"),
-                "mark-if-parent" => true,
-            ],
-
             "analysis" => [
                 "text"  => t("Analyser"),
                 "url"   => $this->di->get("url")->create("analysis"),
@@ -107,11 +120,53 @@ return [
                 "mark-if-parent" => true,
             ],
 
-            "theme" => [
-                "text"  => t("Tema"),
-                "url"   => $this->di->get("url")->create("theme"),
-                "title" => t("Webbplatsens teman"),
+            "theme-selector" => [
+                "text"  => t("Temaväljare"),
+                "url"   => $this->di->get("url")->create("theme-selector"),
+                "title" => t("Ändra tema på sidan"),
                 "mark-if-parent" => true,
+            ],
+
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Bildblogg"),
+                "mark-if-parent" => true,
+            ],
+
+            "assignments" => [
+                "text"  => t("Uppgifter"),
+                "url"   => $this->di->get("url")->create("#"),
+                "title" => t("Uppgifter från kursmomenten"),
+                "mark-if-parent" => true,
+
+                "submenu" => [
+                    "items" => [
+                        "grid" => [
+                            "text"  => t("Grid"),
+                            "url"   => $this->di->get("url")->create("grid"),
+                            "title" => t("Vertikalt grid"),
+                        ],
+
+                        "typography" => [
+                            "text"  => t("Typografi"),
+                            "url"   => $this->di->get("url")->create("typography"),
+                            "title" => t("Horisontellt grid/typografi"),
+                        ],
+
+                        "theme" => [
+                            "text"  => t("Tema"),
+                            "url"   => $this->di->get("url")->create("theme"),
+                            "title" => t("Webbplatsens teman"),
+                        ],
+
+                        "images" => [
+                            "text"  => t("Bilder"),
+                            "url"   => $this->di->get("url")->create("images"),
+                            "title" => t("Exempelsida för bilder"),
+                        ],
+                    ],
+                ],
             ],
 
             "about" => [

@@ -25,3 +25,8 @@ v4.0.0 (2017-11-22)
 ---------------------------------------
 Femte repon
 Kmom04 - Familj av teman. Lagt till sju nya teman i theme.
+
+v5.0.0 (2017-11-27)
+---------------------------------------
+Sjätte repon
+Kmom04 - Bilder. Använder CImage, integrerat figure och "snygga länkar"
