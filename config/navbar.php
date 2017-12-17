@@ -73,9 +73,21 @@ return [
                         "url"   => $this->di->get("url")->create("images"),
                         "title" => t("Exempelsida för bilder"),
                     ],
+
+                    "design-element" => [
+                        "text"  => t("Designelement"),
+                        "url"   => $this->di->get("url")->create("design-element"),
+                        "title" => t("Designelement"),
+                    ],
+
+                    "design-principle" => [
+                        "text"  => t("Designprinciper"),
+                        "url"   => $this->di->get("url")->create("design-principle"),
+                        "title" => t("Designprinciper"),
+                    ],
                 ],
             ],
-        ],
+            ],
             "about" => [
                 "text"  => t("Om"),
                 "url"   => $this->di->get("url")->create("about"),
@@ -164,6 +176,18 @@ return [
                             "text"  => t("Bilder"),
                             "url"   => $this->di->get("url")->create("images"),
                             "title" => t("Exempelsida för bilder"),
+                        ],
+
+                        "design-element" => [
+                            "text"  => t("Designelement"),
+                            "url"   => $this->di->get("url")->create("design-element"),
+                            "title" => t("Designelement"),
+                        ],
+
+                        "design-principle" => [
+                            "text"  => t("Designprinciper"),
+                            "url"   => $this->di->get("url")->create("design-principle"),
+                            "title" => t("Designprinciper"),
                         ],
                     ],
                 ],

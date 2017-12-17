@@ -77,5 +77,57 @@ return [
             "class"      => "fun",
             "stylesheets" => []
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "depth" => [
+            "title"      => "Tema med designprinciperna 'depth' och 'typography'",
+            "class"      => "depth",
+            "stylesheets" => ["css/depth.min.css",
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "frames" => [
+            "title"      => "Tema med designprinciperna 'frames' och 'negative space'",
+            "class"      => "frames",
+            "stylesheets" => ["css/frames.min.css",
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "designKrock" => [
+            "title"      => "Tema som 'krockar' olika designprinciper",
+            "class"      => "designKrock",
+            "stylesheets" => ["css/designKrock.min.css",
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "separator4" => "------------------------------------------------",
+
+        "background" => [
+            "title"      => "Centrerat tema med bakgrundsbild och opacity",
+            "class"      => "background",
+            "stylesheets" => ["css/background.min.css",
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "gradients" => [
+            "title"      => "Tema med gradients som bakgrund och full bredd",
+            "class"      => "gradients",
+            "stylesheets" => ["css/gradients.min.css",
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
+
+        "textureElements" => [
+            "title"      => "Tema med textur som använder linjer",
+            "class"      => "textureElements",
+            "stylesheets" => ["css/textureElements.min.css",
+            "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+            ]
+        ],
     ]
 ];
